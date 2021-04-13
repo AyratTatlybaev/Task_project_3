@@ -177,8 +177,7 @@ def render_request_done():
                            goal=goal,
                            time=time)
 
-# Run server
-#if __name__ == '__main__':
-    #app.run()
 
-app.run(debug=True)
+# Run server
+if __name__ == '__main__':
+    app.run()
